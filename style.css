@@ -7,13 +7,6 @@
     
 }
 
-@media screen and (max-width:600px){
-    .navbar-dark .navbar-brand{
-        font-size: 24px;
-    }
-
-}
-
 .navbar-dark .navbar-brand:hover{
     color:#79C4CD;
 }
@@ -99,7 +92,7 @@ p{
     p{
         font-size: 34px;
         margin-left: 70px;
-        padding-top: 120px;
+        padding-top: 150px;
     }
 }
 
@@ -240,11 +233,7 @@ p{
     
 }
 
-@media screen and (max-width:600px) {
-    .gallery {
-        margin:10px 30px;
-    }
-}
+
 
 .gallery img{
     transition: 1s;
@@ -276,16 +265,6 @@ p{
 }
 
 
-
-@media screen and (max-width:600px) {
-    .footer {
-        margin-top: 100px;
-        
-    }
-}
-
-
-
 .email {
     height: 60px;
     width: 45px;
@@ -296,19 +275,9 @@ p{
     margin-left: 50px;
     bottom: -70px;
 
-}
+} 
 
-.email {
-    height: 60px;
-}
 
-@media screen and (max-width:600px) {
-    .email{
-      margin-left: 150px;
-      height: 48px;
-        
-    }
-}
 
 .facebook {
     height: 45px;
@@ -320,13 +289,7 @@ p{
     
 }
 
-@media screen and (max-width:600px) {
-    .facebook{
-        height: 35px;
-     
-        
-    }
-}
+
 
 .linkedin {
     height: 45px;
@@ -337,13 +300,7 @@ p{
     bottom: -78px;
 }
 
-@media screen and (max-width:600px) {
-    .linkedin {
-        height: 35px;
-        
 
-    }
-}
 
 .copyright {
     height: 20px;
@@ -354,16 +311,6 @@ p{
     
 }
 
-@media screen and (max-width:600px) {
-    .copyright {
-        height: 20px;
-        padding-left: 300px;
-        margin-top: 103px;
-        
-        
-
-    }
-}
 
 
 
@@ -380,16 +327,7 @@ h6 {
 
 }
 
-@media screen and (max-width:600px) {
-    h6 {
-        font-size: 18px;
-        margin-top: 75px;
-        padding-top: 0px;
-        margin-right: 20px;
-        
-    
-    }
-}
+
 
 
 
