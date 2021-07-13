@@ -227,13 +227,142 @@ p{
        margin-top: 50px;
 } 
 }
+
+
+.footer {
+    font-size: 18px;
+    font-family: oswald;
+    margin-top: 0px;
+    background-color: #0C1B1D;
+    height: 200px;
+    
+}
+
+@media screen and (max-width:600px) {
+    .footer {
+        margin-top: 0px;
+        
+        
+    }
+}
+
+
+
+.email {
+    height: 60px;
+    width: 45px;
+    margin: 5px;
+    position: relative;
+    /* bottom: 107px; */
+    float: left;
+    margin-left: 50px;
+    bottom: -70px;
+
+}
+
+@media screen and (max-width:600px) {
+    .email{
+      margin-left: 50px;
+      width: 35px;
+      height: 50px;
+        
+    }
+}
+
+.facebook {
+    height: 45px;
+    margin: 5px;
+    position: relative;
+    /* bottom: 100px; */
+    float: left;
+    bottom: -78px;
+    
+}
+
+@media screen and (max-width:600px) {
+    .facebook{
+        height: 38px;
+        bottom: -75px;
+     
+        
+    }
+}
+
+.linkedin {
+    height: 45px;
+    margin: 5px;
+    position: relative;
+    /* bottom: 100px; */
+    float: left;
+    bottom: -78px;
+}
+
+@media screen and (max-width:600px) {
+    .linkedin {
+        height: 38px;
+        bottom: -75px;
+        
+
+    }
+}
+
+.copyright {
+    height: 20px;
+    margin-top: 77px;
+    padding-left: 1095px;
+
+
+    
+}
+
+@media screen and (max-width:600px) {
+    .copyright {
+        height: 25px;
+        padding-left: 78px;
+        margin-top: 62px;
+        
+        
+
+    }
+}
+
+
+
+h6 {
+    font-family: oswald;
+    font-size: 18px;
+    float: right;
+    margin-right: 50px;
+    font-weight: 100;
+    color: #C9AA8B; 
+    line-height: 4;
+    margin-top: 50px;
+    
+
+}
+
+@media screen and (max-width:600px) {
+    h6 {
+        font-size: 18px;
+        margin-top: 0px;
+        padding-top: 35px;
+        
+    
+    }
+}
+
 .gallery{
     margin: 50px 150px;
     
     
 }
 
+.gallery img:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
 
+
+}
 
 .gallery img{
     transition: 1s;
@@ -247,85 +376,9 @@ p{
     .gallery img{
         width: 200px ;
 }
-.gallery img:hover {
-    filter: grayscale(100%);
-    transform: scale(1.1);
-
-
-}
-
-
-.footer {
-    font-size: 18px;
-    font-family: oswald;
-    margin-top: 200px;
-    background-color: #0C1B1D;
-    height: 200px;
-    
-}
-
-
-.email {
-    height: 60px;
-    width: 45px;
-    margin: 5px;
-    position: relative;
-    /* bottom: 107px; */
-    float: left;
-    margin-left: 50px;
-    bottom: -70px;
-
-} 
 
 
 
-.facebook {
-    height: 45px;
-    margin: 5px;
-    position: relative;
-    /* bottom: 100px; */
-    float: left;
-    bottom: -78px;
-    
-}
-
-
-
-.linkedin {
-    height: 45px;
-    margin: 5px;
-    position: relative;
-    /* bottom: 100px; */
-    float: left;
-    bottom: -78px;
-}
-
-
-
-.copyright {
-    height: 20px;
-    margin-top: 100px;
-    padding-left: 1095px;
-
-
-    
-}
-
-
-
-
-h6 {
-    font-family: oswald;
-    font-size: 18px;
-    float: right;
-    margin-right: 50px;
-    font-weight: 100;
-    color: #C9AA8B; 
-    line-height: 4;
-    margin-top: 72px;
-    
-
-}
 
 
 
