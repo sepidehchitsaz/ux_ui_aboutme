@@ -91,7 +91,7 @@ p{
 @media screen and (max-width:600px) {
     p{
         font-size: 34px;
-        margin-left: 70px;
+        margin-left: 60px;
         padding-top: 150px;
     }
 }
@@ -364,6 +364,14 @@ h6 {
 
 }
 
+@media screen and (max-width:600px) {
+    .galery img:hover{
+        filter: grayscale(100%);
+        transform: scale(1.1);
+
+    }
+}
+
 .gallery img{
     transition: 1s;
     padding: 15px;
@@ -374,7 +382,10 @@ h6 {
 
 @media screen and (max-width:600px){
     .gallery img{
-        width: 200px ;
+        width: 300px ;
+        padding: 10px;
+        margin-left: -50px;
+        
 }
 
 
